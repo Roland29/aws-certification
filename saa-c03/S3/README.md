@@ -1,0 +1,69 @@
+S3 basic
+-
+- security
+  - IAM policies
+  - bucket policies
+  - object access control list (ACL)
+  - bucket access control list
+  - encryption
+- Public access
+  - static website
+    - allow public access
+    - enable statis website under properties
+    - add policy to allow public getObject
+- version
+- Replication
+  - Delete no replicate
+  - no chaining
+- Storage classes
+  - Standard - general purpose
+  - standard - infrequent access
+  - One zone-infrequent access
+  - Glacier instant retrieval
+  - Glacier flexible retrieval
+  - Glacier deep archive
+  - Intelligent tiering
+
+Advanced S3
+-
+- Lifecycle rules
+  - transition actions
+  - expiration actions
+- Requester pays
+  - requester must be known by aws
+- Event notifications
+  - SQS
+  - SNS
+  - Lambda
+  - EventBridge -> 18 others aws services & more advanced filtering, multiple destination,...
+- Performance
+  - 3500 put/copy/post/delete & 5500 get/head request per second per prefix in a bucket
+  - Multi-part upload
+  - Transfer acceleration
+  - Byte-Range fetch
+- Select & Glacier Select
+  - server-side filtering
+- Batch operation
+
+Security S3 
+-
+- Encryption
+  - SSE
+    - SSE-S3
+    - SSE-KMS
+    - SSE-c
+  - Client-side encryption
+- Encryption in transit (SSl/TLS)
+  - Force ssl/tls -> policy aws:SecureTransport
+- Cors
+- MFA delete (AWS CLI)
+- Access logs
+- Pre-signed URLs
+- Glacier Vault Lock (WORM model (Write once read many))
+- Object Lock
+  - Retention mode - Compliance
+  - Retention mode - Governance
+  - Legal Hold
+- Access Points
+  - Simplify policy in s3
+- Object Lambda

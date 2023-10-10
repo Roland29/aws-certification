@@ -1,0 +1,11 @@
+CloudFront
+-
+- S3 origin
+- GeoRestriction
+- Price location
+  - Class ALL
+  - Class 200
+  - Class 100
+- Cache invalidation
+- Unicast IP / Anycast IP
+- Global Accelerator
