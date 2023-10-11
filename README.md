@@ -13,8 +13,8 @@
 - [X] [serverless](./saa-c03/serverless)
 - [X] [database](./saa-c03/database)
 - [X] [data-analytics](./saa-c03/data-analytics)
-- [ ] [machine-learning](./saa-c03/machine-learning)
-- [ ] [monitoring-audit](./saa-c03/monitoring-audit)
+- [X] [machine-learning](./saa-c03/machine-learning)
+- [X] [monitoring-audit](./saa-c03/monitoring-audit)
 - [ ] [security](./saa-c03/security)
 - [ ] [networking](./saa-c03/networking)
 
