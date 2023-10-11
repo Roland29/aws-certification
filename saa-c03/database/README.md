@@ -1,0 +1,23 @@
+Database Types
+-
+- RDBMS
+  - Aurora
+  - RDS
+  - ElastiCache
+- NoSQL database
+  - DocumentDB
+  - DynamoDB
+  - Keyspace
+- Object store
+  - S3
+- Data wharehouse
+  - Redshift
+- Search
+  - Athena
+  - OpenSearch
+- Graphs
+  - Neptune
+- Ledger
+  - QLDB
+- Time series
+  - Timestream
