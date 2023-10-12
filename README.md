@@ -15,7 +15,7 @@
 - [X] [data-analytics](./saa-c03/data-analytics)
 - [X] [machine-learning](./saa-c03/machine-learning)
 - [X] [monitoring-audit](./saa-c03/monitoring-audit)
-- [ ] [security](./saa-c03/security)
+- [X] [security](./saa-c03/security)
 - [ ] [networking](./saa-c03/networking)
 
 5 pillars:

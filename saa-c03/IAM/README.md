@@ -1,0 +1,37 @@
+IAM Advanced
+-
+- AWS Organisation
+  - Consolidated billing across account
+  - Shared reserved instances and saving plans
+  - Security: Service Control Policies (SCP)
+  - Organisation Unit
+- IAM Conditions
+  - aws:SourceIp
+  - aws:RequestedRegion
+  - ec2:ResourceTag
+  - aws:MultiFactorAuthPresent
+  - aws:PrincipalOrgID
+- IAM Roles vs Resource Based Policies
+  - Using a role as proxy
+  - EventBridge - Security
+    - Rules:
+      - Resource-base policy
+      - IAM role
+- IAM Permission boundaries
+  - for users & roles (not groups)
+- IAM Identity Center
+  - Replace SSO
+  - Fine-grained Permissions and Assignments
+    - Multi-Account Permissions
+    - Application Assignments
+    - Attribute-base Access Control (ABAC)
+- AWS Directory Services
+  - Managed Microsoft AD
+  - AD Connector
+    - Just a proxy to on-prem AD
+  - Simple AD
+- AWS Control Tower
+  - Set up and govern a secure and compliant multi-account based on best practices
+  - Guardrails
+    - Preventive Guardrail - using SCP
+    - Detective Guardrail - using AWS Config
