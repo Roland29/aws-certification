@@ -7,11 +7,12 @@ CIDR - IPV4
 - Base IP
 - subnet Mask
   - /32 no octet can change
-  - /24 last octet can change
+  - /24 last octet can change (/24 means = 2^(32-24) = 2^8 = 256 IPs)
   - /16 last 2 octets can change
   - /8 last 3 octets can change
   - /0 all octets can change
 - Private vs Public
+- CIDR block size must be between /16 and /28
 
 Subnet
 -
@@ -96,7 +97,9 @@ Direct Connect (DX)
 - Direct Connect Gateway
 - Connection Types
   - Dedicated Connections
+    - connection supports 1Gbps, 10Gbps and 100Gbps.
   - Hosted Connections
+    - connection supports 50Mbps, 500Mbps, up to 10Gbps.
   - takes longer than 1 month to establish a new connection
 - Encryption
   - not encrypt but it's private
@@ -106,6 +109,7 @@ Direct Connect (DX)
 
 Transit Gateway
 -
+- To scale up an AWS Site-to-Site VPN connection throughput
 
 VPC - Traffic Mirroring
 -
@@ -117,3 +121,7 @@ Egress-only Internet gateway
 - Similar to a NAT gateway but for IPv6
 - Must update route tables
 
+AWS Network Firewall
+-
+- From layer 3 to Layer 7 protection
+- Firewall at the VPC level
