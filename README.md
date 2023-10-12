@@ -16,7 +16,7 @@
 - [X] [machine-learning](./saa-c03/machine-learning)
 - [X] [monitoring-audit](./saa-c03/monitoring-audit)
 - [X] [security](./saa-c03/security)
-- [ ] [networking](./saa-c03/networking)
+- [X] [networking](./saa-c03/networking)
 
 5 pillars:
     - Cost
