@@ -1,5 +1,6 @@
 IAM Advanced
 -
+- ex: IAM role that you create for the Lambda function is in the same AWS account as the bucket, then you don't need to grant Amazon S3 permissions on both the IAM role and the bucket policy.
 - AWS Organisation
   - Consolidated billing across account
   - Shared reserved instances and saving plans

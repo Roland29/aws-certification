@@ -39,7 +39,9 @@ Advanced S3
 - Performance
   - 3500 put/copy/post/delete & 5500 get/head request per second per prefix in a bucket
   - Multi-part upload
+    - object size over 100MB
   - Transfer acceleration
+    - Enables fast, easy, and secure transfers of files over long distances between your client and an S3 bucket.
   - Byte-Range fetch
 - Select & Glacier Select
   - server-side filtering
@@ -67,3 +69,11 @@ Security S3
 - Access Points
   - Simplify policy in s3
 - Object Lambda
+- S3 sync cmd
+  - Use CopyObject APIs to copy objects between S3 buckets
+
+S3 Analytics Storage
+-
+- Analyze storage access patterns to help you decide when to transition the right data to the right storage class
+- transition less frequently accessed STANDARD storage to the STANDARD_IA
+  - Storage class analysis does not give recommendations for transitions to the ONEZONE_IA or S3 Glacier storage classes

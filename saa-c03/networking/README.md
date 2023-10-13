@@ -54,6 +54,10 @@ Network Access Control List (NACL)
 - New NACL deny everything in & out
 - Rules allow or deny and are evaluated in order (lower to highest)
 
+VPC sharing
+-
+- share one or more subnets with other AWS accounts belonging to the same parent organization
+
 VPC Peering
 -
 - Privately connect 2 vpc's (even from cross account)
@@ -89,7 +93,11 @@ Site-to-site VPN
   - Customer Gateway (CGW)
 - Enable Route Propagation in AWS
 - For EC2 ssh enable ICMP protocol
-- VPN CloudHub
+
+VPN CloudHub
+-
+- Provide secure communication between sites
+  
 
 Direct Connect (DX)
 -
@@ -106,6 +114,13 @@ Direct Connect (DX)
   - Could add a vpn to encrypt
 - Resiliency
 - Backup connection through Site-toSite VPN
+- Virtual Interface Firewall (VIF)
+  - Public
+    - AWS resources reachable by public IP
+  - Private
+    - AWS resources reachable using private IP
+  - Transit
+    - AWS resources reachable through a transit gateway using private IP
 
 Transit Gateway
 -

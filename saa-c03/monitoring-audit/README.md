@@ -16,11 +16,19 @@ CloudWatch
 - Cloudwatch Unified Agent
   - logs + information of server (CPU, Disk, RAM, Nestat, swap)
 - Alarms
+  - can automatically stop, terminate, reboot, or recover your EC2 instances 
 
 EventBridge
 -
 - Schedule cron jobs
 - cross account capability
+- Advanced filtering
+- Multiple destinations
+- Capabilities:
+  - Archive
+  - replay events
+  - Reliable delivery
+- Outputs => Over 18 AWS services
 
 Cloudwatch container Insight
 -

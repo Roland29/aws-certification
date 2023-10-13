@@ -12,7 +12,9 @@ RDS Multi AZ
 -
 
 Aurora
-    - Custom Endpoint
+-
+ - Custom Endpoint
+ - 15 Aurora Replicas can be distributed across the Availability Zones that a DB cluster spans within an AWS Region
 -
 - Auto-scaling
 - Global Aurora (less than 1sec to replicate cross-region)
@@ -34,7 +36,11 @@ security
 proxy
 -
 
-elasticCache
+ElasticCache
 -
+- blazing fast in-memory data store that provides sub-millisecond latency to power internet-scale real-time applications
 - redis
+  - Auth
 - memcache
+
+![redis vs memCache](../../images/redisVsMemcache.png)

@@ -48,8 +48,15 @@ To S3 or EFS
 
 DataSync
 -
-- Move large amount od data to and from
+- Move large amount of data to and from
 - Can synchronize to
 - Replication task
 - File permission and metadata are preserved
+- outputs:
+  - s3
+  - EFS
+  - Fsx windows
+  - Fsx Lustre
+  - Fsx OpenZFS
+  - Fsx NetApp ONTAP
 

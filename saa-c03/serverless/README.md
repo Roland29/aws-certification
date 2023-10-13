@@ -19,6 +19,14 @@ Lambda
 - Lambda@Edge vs CloudFront function
 - Lambda in VPC
 - RDS Proxy
+- Layer
+  - a ZIP archive that contains libraries, a custom runtime, or other dependencies
+  - let you keep your deployment package small
+  - can use up to 5 layers at a time
+- security IAM role
+  - 
+
+![VPC lambda](../../images/vpcLambda.png)
 
 DynamoDB
 - 
@@ -30,6 +38,7 @@ DynamoDB
   - Provisioned Mode
   - On-Demand Mode
 - DAX
+  - Does not support SQL query caching
 - Stream Processing
   - DynamoDB Streams
   - Kinesis Data Streams
