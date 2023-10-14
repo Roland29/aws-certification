@@ -1,4 +1,4 @@
-# Security
+# Security & Encryption
 
 <details>
  <summary><i>Menu</i></summary>

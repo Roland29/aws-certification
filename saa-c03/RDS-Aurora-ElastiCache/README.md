@@ -78,7 +78,7 @@
 - Using ElastiCache involves heavy application code changes
 - blazing fast in-memory data store that provides sub-millisecond latency to power internet-scale real-time applications
 - Redis
-- Memcache
+- Memcached
 - Security
   - IAM authentication for Redis
   - IAM policies only for API-level security

@@ -1,5 +1,17 @@
-Snow Family
--
+# Storage Extras
+
+<details>
+ <summary><i>Menu</i></summary>
+
+- [Snow Family](#snow-family)
+- [FSX](#fsx)
+- [Hybrid Cloud Storage](#hybrid-cloud-storage)
+- [Transfer Family](#transfer-family)
+- [DataSync](#datasync)
+</details>
+
+---
+## Snow Family
 - Data migration / Edge computing
   - snowcone
       - 8 TB HDD | 14 TB SSD
@@ -10,7 +22,6 @@ Snow Family
 
 ---
 ## FSX
-
 - Windows file server 
 - Lustre
   - easy and cost-effective to launch and run the world’s most popular high-performance file system
@@ -28,7 +39,6 @@ Snow Family
 
 ---
 ## Hybrid Cloud Storage
-
 - Storage Cloud Native
   - Block
   - File
@@ -44,7 +54,6 @@ Snow Family
 
 ---
 ## Transfer Family
- 
 - FTP
 - FTPS
 - SFTP
@@ -53,7 +62,6 @@ To S3 or EFS
 
 ---
 ## DataSync
-
 - Move large amount of data to and from
 - Can synchronize to
 - Replication task
@@ -65,4 +73,3 @@ To S3 or EFS
   - Fsx Lustre
   - Fsx OpenZFS
   - Fsx NetApp ONTAP
-
