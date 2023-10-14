@@ -1,5 +1,17 @@
-Disaster & Recovery
--
+# Disaster & Recovery
+
+<details>
+ <summary><i>Menu</i></summary>
+
+- [Strategies](#strategies)
+- [DMS](#dms---database-migration-service)
+- [Migrate On-Premise with AWS](#migrate-on-premise-with-aws)
+- [AWS Backup](#aws-backup)
+- [Application Discovery Service](#disaster--recovery)
+- [MGM](#application-migration-service-mgm)
+- [VMware cloud](#vmware-cloud-on-aws)
+- [Transfer large amount of data](#transfer-large-amount-of-data)
+</details>
 
 - Recovery Point Objective (RPO)
   - how often backups
@@ -8,7 +20,6 @@ Disaster & Recovery
 
 ---
 ## Strategies
-
 - Backup & Restore (High RPO)
 - Pilot Light
 - Warm standby
@@ -17,7 +28,6 @@ Disaster & Recovery
 
 ---
 ## DMS - Database Migration Service
-
 - Must create EC2 to perform the replication
 - If from SQL Server to Mysql need of AWS Schema Conversion Tool (SCT)
 - Continuous Replication
@@ -42,7 +52,6 @@ The Amazon Redshift cluster must be in the same AWS account and the same AWS Reg
 
 ---
 ## Migrate On-Premise with AWS
-
 - VM import/export
 - Application Discovery service
 - DMS
@@ -50,31 +59,26 @@ The Amazon Redshift cluster must be in the same AWS account and the same AWS Reg
 
 ---
 ## AWS Backup
-
 - Fully managed service
 - Centrally manage and automate backups across AWS services
 - Vault lock policy (WORM) write once read many
 
 ---
 ## Application Discovery Service
-
 - 2 types of migrations
   - Agentless Discovery
   - Agent-based Discovery
 
 ---
 ## Application Migration Service (MGM)
-
 - Migrate application to AWS
 
 ---
 ## VMware cloud on AWS
 
-
 ---
 ## Transfer large amount of data
-
 - Over the internet / Site-to-Site VPN
 - Over direct connect (1 Gbps)
 - Over snowball
-- For on-going replication / transfers
+- For ongoing replication / transfers

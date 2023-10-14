@@ -9,9 +9,10 @@
 
 ---
 ## CloudFront
-
 - CDN
 - S3 origin
+- DDos protection
+- Origin Access Control (OAC)
 - GeoRestriction
 - Price location
   - Class ALL
@@ -23,7 +24,6 @@
 
 ---
 ## AWS Global Accelerator
-
 - Improve the availability and performance of the applications
   - Static IP addresses
     - fixed entry point to your applications

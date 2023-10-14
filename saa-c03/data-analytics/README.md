@@ -16,7 +16,6 @@
 
 ---
 ## Athena
-
 - BI
 - Analytic
 - Reporting
@@ -30,7 +29,6 @@
 
 ---
 ## Redshift
-
 - Must load data first before queries
   - Kinesis Data Firehose
   - S3 using Copy command
@@ -40,23 +38,25 @@
   - Query data that is already in S3 without loading it
   ![spectrum](../../images/redshift_spectrum-1.gif)
 
-
 ---
 ## OpenSearch (ElasticSearch)
-
 - 2 modes
   - Managed cluster
   - Serverless cluster
 - Queries with partial matches
 
 ---
-## EMR
-
+##  Amazon Elastic MapReduce (EMR)
 - Hadoop clusters (Big Data)
+- Cluster can be made hundreds of EC2
+- Auto-scaling (with spot instance)
+- Nodes types
+  - Master Node
+  - Core Node
+  - Task node (usually spot)
 
 ---
 ## QuickSight
-
 - BI dashboard
 - Serverless
 - could be embedded
@@ -66,7 +66,6 @@
 
 ---
 ## Glue
-
 - ETL
 - Convert data into Parquet format
 - Glue Data Catalog
@@ -79,17 +78,14 @@
 
 ---
 ## Lake Formation
-
 - Store in S3
 
 ---
 ## Kinesis Data Analytics
-
 - For SQL applications
 - For apache Flink
 
 ---
 ## Amazon MSK (Managed Streaming for apache kafka)
-
 - Big Data
 

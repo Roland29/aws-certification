@@ -1,5 +1,20 @@
-CloudWatch
--
+# Monitoring & Audit
+
+<details>
+ <summary><i>Menu</i></summary>
+
+- [CloudWatch](#cloudwatch)
+- [EventBridge](#eventbridge)
+- [Cloudwatch container Insight](#cloudwatch-container-insight)
+- [Cloudwatch lambda Insight](#cloudwatch-lambda-insight)
+- [Cloudwatch Contributor Insight](#cloudwatch-contributor-insight)
+- [Cloudwatch Application Insight](#cloudwatch-application-insight)
+- [CloudTrail](#cloudtrail)
+- [AWS Config](#aws-config)
+</details>
+
+---
+## CloudWatch
 - Streams Metric
 - Logs
   - Insight
@@ -20,7 +35,6 @@ CloudWatch
 
 ---
 ## EventBridge
-
 - Schedule cron jobs
 - cross account capability
 - Advanced filtering
@@ -33,26 +47,24 @@ CloudWatch
 
 ---
 ## Cloudwatch container Insight
-
+- Collect, aggregate, summarize metrics and logs from containers
 - using containerized version of cloudwatch agent to discover containers
 
 ---
 ## Cloudwatch lambda Insight
-
+- Monitoring and troubleshooting solution for serverless applications running on AWS Lambda
+- Collects, aggregates, and summarizes diagnostic information such as cold starts and Lambda worker shutdowns
 
 ---
 ## Cloudwatch Contributor Insight
-
 - Identify the heaviest work network users
 
 ---
 ## Cloudwatch Application Insight
-
-- Automated dashboard to monitor applications
+- Provides automated dashboards that show potential problems with monitored applications, to help isolate ongoing issues
 
 ---
 ## CloudTrail
-
 - GET history of events / API calls made within your AWS Account by:
   - SDK
   - Console
@@ -72,7 +84,6 @@ CloudWatch
 
 ---
 ## AWS Config
-
 - config rules per region
 - could add remediation
 - Can send Notifications

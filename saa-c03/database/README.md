@@ -21,7 +21,6 @@
 
 ---
 ## NoSQL database
-
 - DocumentDB
 - [DynamoDB](../serverless/README.md#dynamodb)
 - Keyspace
@@ -42,6 +41,8 @@
 ---
 ## Graphs
 - Neptune
+  - Fully managed graph database. (social network)
+  - Highly available across 3 AZ, with up to 15 red replicas
 
 ---
 ## Ledger
