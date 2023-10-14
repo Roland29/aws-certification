@@ -43,7 +43,7 @@
     - 10.0.0.0 - Network Address 
     - 10.0.0.1 - reserved AWS for VPC router 
     - 10.0.0.2 - reserved AWS for mapping to Amazon-provided DNS
-    - 10.0.0.3 - reserved AWS for futur use
+    - 10.0.0.3 - reserved AWS for future use
     - 10.0.0.255 - Network Broadcast Address 
 - public
 - private
@@ -86,7 +86,7 @@
 
 ---
 ## VPC Peering
-- Privately connect 2 vpc's (even from cross account)
+- Privately connect 2 VPC (even from cross account)
 - Make them behave as if they were in same network
 - CIDR must not overlap!
 

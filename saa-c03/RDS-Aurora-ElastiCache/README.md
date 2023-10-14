@@ -59,7 +59,7 @@
 ---
 ## Security RDS & Aurora
 - At-rest encryption
-- In-flightencryption: TLS-readybydefault
+- In-flight encryption: TLS - ready by default
 - IAM Authentication: IAM roles to connect to your database
 - Security Groups
 - No SSH available except on RDS Custom
@@ -69,7 +69,7 @@
 ---
 ## Proxy
 - Improving database efficiency by reducing the stress on database resources (e.g., CPU, RAM) and minimize open connections (and timeouts)
-- Supports RDS (MySQL, PostgreSQL, MariaDB, MS SQL Server) and Aurora (MySQL, PostgreSQL)
+- Supports RDS (MySQL, Postgres, MariaDB, MS SQL Server) and Aurora (MySQL, Postgres)
 - RDS Proxy is never publicly accessible (must be accessed from VPC)
 - Enforce IAM Authentication for DB, and securely store credentials in AWS Secrets Manager
 

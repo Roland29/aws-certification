@@ -19,7 +19,7 @@
   - Class 200
   - Class 100
 - Cache invalidation
-- Unicast IP / Anycast IP
+- Uni cast IP / Any cast IP
 - supports HTTP/RTMP protocol based requests
 
 ---

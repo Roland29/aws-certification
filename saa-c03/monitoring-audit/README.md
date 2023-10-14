@@ -29,7 +29,7 @@
 - CloudWatch logs Agent
   - only logs
 - Cloudwatch Unified Agent
-  - logs + information of server (CPU, Disk, RAM, Nestat, swap)
+  - logs + information of server (CPU, Disk, RAM, Netstat, swap)
 - Alarms
   - can automatically stop, terminate, reboot, or recover your EC2 instances 
 

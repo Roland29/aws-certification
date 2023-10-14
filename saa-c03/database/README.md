@@ -6,7 +6,7 @@
 - [RDBMS](#rdbms)
 - [NoSQL](#nosql-database)
 - [Object store](#object-store)
-- [Data wharehouse](#data-wharehouse)
+- [Data warehouse](#data-warehouse)
 - [Search](#search)
 - [Graphs](#graphs)
 - [Ledger](#ledger)
@@ -30,7 +30,7 @@
 - [S3](../S3/README.md#s3)
 
 ---
-## Data wharehouse
+## Data warehouse
 - [Redshift](../data-analytics/README.md#redshift)
 
 ---

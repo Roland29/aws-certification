@@ -66,7 +66,7 @@ The Amazon Redshift cluster must be in the same AWS account and the same AWS Reg
 ---
 ## Application Discovery Service
 - 2 types of migrations
-  - Agentless Discovery
+  - Agent-less Discovery
   - Agent-based Discovery
 
 ---
