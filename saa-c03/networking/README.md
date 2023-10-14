@@ -1,6 +1,6 @@
 # VPC
 
-<details open>
+<details>
  <summary><i>Menu</i></summary>
 
 - [CIDR](#cidr---ipv4)
