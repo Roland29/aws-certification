@@ -9,7 +9,7 @@
 - [X] [CloudFront](./saa-c03/CloudFront)
 - [X] [Storage extras](./saa-c03/storage-extras)
 - [X] [SQS SNS Kinesis](./saa-c03/SQS-SNS-Kinesis)
-- [X] [ECS Fargate ECR EKS](./saa-c03/ECS-Fargate-ECR-EKS)
+- [X] [ECS Fargate ECR EKS](./saa-c03/containers)
 - [X] [Serverless](./saa-c03/serverless)
 - [X] [Database](./saa-c03/database)
 - [X] [Data Analytics](./saa-c03/data-analytics)

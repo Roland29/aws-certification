@@ -3,7 +3,7 @@
 <details>
  <summary><i>Menu</i></summary>
 
-- [RDS](#rds)
+- [RDS](#relational-database-service-rds)
 - [Aurora](#aurora)
 - [ElastiCache](#elasticache)
 </details>

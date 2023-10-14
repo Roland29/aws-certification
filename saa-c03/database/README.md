@@ -16,8 +16,8 @@
 ---
 ## RDBMS
 - [Aurora](../RDS-Aurora-ElastiCache/README.md#aurora)
-- [RDS](../RDS-Aurora-ElastiCache/README.md#rds)
-- [ElastiCache](../RDS-Aurora-ElastiCache/README.md#elasticcache)
+- [RDS](../RDS-Aurora-ElastiCache/README.md#relational-database-service-rds)
+- [ElastiCache](../RDS-Aurora-ElastiCache/README.md#elasticache)
 
 ---
 ## NoSQL database
@@ -27,7 +27,7 @@
 
 ---
 ## Object store
-- [S3](../S3/README.md#s3-basic)
+- [S3](../S3/README.md#s3)
 
 ---
 ## Data wharehouse

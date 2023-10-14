@@ -81,7 +81,7 @@
 
 ---
 ## AppFlow
-- Securely transfer data between SAAS application and AWS
+- Securely transfer data between SaaS application and AWS
 
 ---
 ## Amplify

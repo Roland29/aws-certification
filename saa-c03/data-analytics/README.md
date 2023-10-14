@@ -6,7 +6,7 @@
 - [Athena](#athena)
 - [Redshift](#redshift)
 - [OpenSearch](#opensearch-elasticsearch)
-- [EMR](#emr)
+- [EMR](#amazon-elastic-mapreduce-emr)
 - [QuickSight](#quicksight)
 - [Glue](#glue)
 - [Lake Formation](#lake-formation)
