@@ -1,5 +1,17 @@
-Lambda
--
+# Serverless
+
+<details>
+ <summary><i>Menu</i></summary>
+
+- [Lambda](#lambda)
+- [DynamoDB](#dynamodb)
+- [API Gateway](#api-gateway)
+- [Step Functions](#step-functions)
+- [Cognito](#cognito)
+</details>
+
+---
+## Lambda
 - short executions
 - on-demand
 - scaling is automated
@@ -24,13 +36,10 @@ Lambda
   - let you keep your deployment package small
   - can use up to 5 layers at a time
 - security IAM role
-  - 
-
 ![VPC lambda](../../images/vpcLambda.png)
 
 ---
 ## DynamoDB
- 
 - Tables
   - Maximum size of an item 400 KB
 - PK
@@ -55,7 +64,6 @@ Lambda
 
 ---
 ## API Gateway
-
 - websocket
 - API versioning
 - environment
@@ -76,13 +84,11 @@ Lambda
 
 ---
 ## Step Functions
-
 - Workflow to orchestrate lambda functions
 - Human interaction can be a step
 
 ---
 ## Cognito
-
 - User Pools
 - Identity Pools
   - Access AWS services directly
