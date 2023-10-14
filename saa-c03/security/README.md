@@ -1,5 +1,22 @@
-Security
--
+# Security
+
+<details>
+ <summary><i>Menu</i></summary>
+
+- [KMS](#aws-kms)
+- [SSM](#ssm-parameter-store)
+- [Secrets Manager](#aws-secrets-manager)
+- [ACM](#certificate-manager-acm)
+- [WAF](#waf)
+- [Shield](#aws-shield)
+- [Firewall Manager](#aws-firewall-manager)
+- [GuardDuty](#guardduty)
+- [Inspector](#inspector)
+- [Macie](#macie)
+- [Types of Access Control](#types-of-access-control)
+</details>
+
+---
 - Encryption in flight (ssl)
 - Server side encryption at rest
   - Data encrypted after being received by the server
@@ -7,7 +24,6 @@ Security
 
 ---
 ## AWS KMS
-
 - KMS Keys Types
   - Symmetric (AES-256 keys)
   - Asymmetric (RSA & ECC key pairs)
@@ -34,35 +50,31 @@ Security
 
 ---
 ## SSM Parameter Store
-
-  - For secrets and configuration management data
-  - Standard
-    - free
-  - Advanced
-    - policies available
-      - TTL
+- For secrets and configuration management data
+- Standard
+  - free
+- Advanced
+  - policies available
+    - TTL
 
 ---
 ## AWS Secrets Manager
-
 - Could force rotation
 - Multi-Region Secrets
 
 ---
 ## Certificate Manager (ACM)
-
 - TLS Certificates
 - both public or private
 - free of charge for public
 - API Gateway
   - Edge-Optimized (default)
-    - TLS certificate must be in the same region as Cloudfront in us-east-1
+    - __TLS certificate must be in the same region as Cloudfront in us-east-1__
   - Regional
     - TLS certificate must be imported on API Gateway, in the same region as the API Stage
 
 ---
 ## WAF
-
 - Protect web app from common web exploits (Layer 7 is http)
 - Deploy on
   - ALB
@@ -73,7 +85,6 @@ Security
 
 ---
 ## AWS Shield
-
 - Protect from DDOS
 - Standard
   - free, already activated
@@ -82,7 +93,6 @@ Security
 
 ---
 ## AWS Firewall Manager
-
 - Manage rules in all accounts of an AWS organization
 - security policy
   - WAF rules
@@ -91,7 +101,6 @@ Security
 
 ---
 ## GuardDuty
-
 - Intelligent threat discovery to protect your AWS account
 - Input:
   - CloudTrail events
@@ -102,7 +111,6 @@ Security
 
 ---
 ## Inspector
-
 - Automated Security assessments
 - For EC2
 - For ECR
@@ -112,14 +120,12 @@ Security
 
 ---
 ## Macie
-
 - Identify and protect sensitive data, such as personally identifiable information (PII)
 - can alert
 - Input: S3
 
 ---
 ## Types of Access Control
-
 ![Types of access control](../../images/typesOfAccessControl.png)
 - IAM 
   - Only grant users within your own AWS account permission to access AWS services

@@ -1,56 +1,74 @@
-S3 basic
--
-- security
-  - IAM policies
-  - bucket policies
-  - object access control list (ACL)
-  - bucket access control list
-  - encryption
-- Public access
-  - static website
-    - allow public access
-    - enable statis website under properties
-    - add policy to allow public getObject
-- version
-- Replication
-  - Delete no replicate
-  - no chaining
-- Storage classes
-  - Standard - general purpose
-  - standard - infrequent access
-  - One zone-infrequent access
-  - Glacier instant retrieval
-  - Glacier flexible retrieval
-  - Glacier deep archive
-  - Intelligent tiering
+# S3
+
+<details>
+ <summary><i>Menu</i></summary>
+
+- [security](#security)
+- [Public access](#public-access)
+- [version](#version)
+- [Replication](#replication)
+- [Storage classes](#storage-classes)
+- [Lifecycle rules](#lifecycle-rules)
+- [Requester pays](#requester-pays)
+- [Event notifications](#event-notifications)
+- [Performance](#performance)
+- [Select & Glacier Select](#select--glacier-select)
+- [Batch operation](#batch-operation)
+- [Advanced Security](#security-1)
+- [Analytics Storage](#s3-analytics-storage)
+</details>
 
 ---
-## Advanced S3
-
-- Lifecycle rules
-  - transition actions
-  - expiration actions
-- Requester pays
-  - requester must be known by aws
-- Event notifications
-  - SQS
-  - SNS
-  - Lambda
-  - EventBridge -> 18 others aws services & more advanced filtering, multiple destination,...
-- Performance
-  - 3500 put/copy/post/delete & 5500 get/head request per second per prefix in a bucket
-  - Multi-part upload
-    - object size over 100MB
-  - Transfer acceleration
-    - Enables fast, easy, and secure transfers of files over long distances between your client and an S3 bucket.
-  - Byte-Range fetch
-- Select & Glacier Select
-  - server-side filtering
-- Batch operation
+## Basic
+### security
+- IAM policies
+- bucket policies
+- object access control list (ACL)
+- bucket access control list
+- encryption
+### Public access
+- static website
+  - allow public access
+  - enable static website under properties
+  - add policy to allow public getObject
+### version
+### Replication
+- Delete no replicate
+- no chaining
+### Storage classes
+- Standard - general purpose
+- standard - infrequent access
+- One zone-infrequent access
+- Glacier instant retrieval
+- Glacier flexible retrieval
+- Glacier deep archive
+- Intelligent tiering
 
 ---
-## Security S3 
+## Advanced
+### Lifecycle rules
+- transition actions
+- expiration actions
+### Requester pays
+- requester must be known by aws
+### Event notifications
+- SQS
+- SNS
+- Lambda
+- EventBridge -> 18 others aws services & more advanced filtering, multiple destination,...
+### Performance
+- 3500 put/copy/post/delete & 5500 get/head request per second per prefix in a bucket
+- Multi-part upload
+  - object size over 100MB
+- Transfer acceleration
+  - Enables fast, easy, and secure transfers of files over long distances between your client and an S3 bucket.
+- Byte-Range fetch
+### Select & Glacier Select
+- server-side filtering
+### Batch operation
 
+---
+## Security
 - Encryption
   - SSE
     - SSE-S3
@@ -63,7 +81,7 @@ S3 basic
 - MFA delete (AWS CLI)
 - Access logs
 - Pre-signed URLs
-- Glacier Vault Lock (WORM model (Write once read many))
+- Glacier Vault Lock (__WORM model__ (Write once read many))
 - Object Lock
   - Retention mode - Compliance
   - Retention mode - Governance
@@ -71,12 +89,11 @@ S3 basic
 - Access Points
   - Simplify policy in s3
 - Object Lambda
-- S3 sync cmd
+- __S3 sync cmd__
   - Use CopyObject APIs to copy objects between S3 buckets
 
 ---
 ## S3 Analytics Storage
-
 - Analyze storage access patterns to help you decide when to transition the right data to the right storage class
 - transition less frequently accessed STANDARD storage to the STANDARD_IA
   - Storage class analysis does not give recommendations for transitions to the ONEZONE_IA or S3 Glacier storage classes
