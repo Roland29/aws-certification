@@ -1,3 +1,14 @@
+IAM users
+-
+- 
+
+IAM Roles
+-
+- delegate access to users or services that normally don't have access to your organization's AWS resources
+- IAM users or AWS services can assume a role to obtain temporary security credentials that can be used to make AWS API calls
+- it is possible to access cross-account resources
+
+
 IAM Advanced
 -
 - ex: IAM role that you create for the Lambda function is in the same AWS account as the bucket, then you don't need to grant Amazon S3 permissions on both the IAM role and the bucket policy.

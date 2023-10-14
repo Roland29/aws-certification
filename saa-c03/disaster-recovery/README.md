@@ -26,11 +26,17 @@ DMS - Database Migration Service
     - read replica
   - External MySQL to Aurora
     - Use Percona XtraBackup to create a file backup in S3
-- Enables to migrate data from supported sources to
+- Enables to migrate data (petabyte-scale) from supported sources to
   - relational databases
   - data warehouses
   - streaming platforms (Kinesis, ...)
-  - other data stores in AWS cloud
+  - other data stores in AWS cloud (S3)
+- Source database remains fully operational during the migration
+- continuous-data-replication:
+
+![AWS-DMS_continuous-data-replication](../../images/AWS-DMS_continuous-data-replication.png)
+
+The Amazon Redshift cluster must be in the same AWS account and the same AWS Region as the replication instance. During a database migration to Amazon Redshift, AWS DMS first moves data to an Amazon S3 bucket. When the files reside in an Amazon S3 bucket, AWS DMS then transfers them to the proper tables in the Amazon Redshift data warehouse. AWS DMS creates the S3 bucket in the same AWS Region as the Amazon Redshift database. The AWS DMS replication instance must be located in that same region.
 
 Migrate On-Premise with AWS
 -

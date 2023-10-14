@@ -12,6 +12,8 @@ FSX
 -
 - Windows file server 
 - Lustre
+  - easy and cost-effective to launch and run the world’s most popular high-performance file system
+  - transparently presents S3 objects as files and allows you to write changed data back to S3
   - HPC (High Performance computing)
   - Seamless integration with S3
   - Scratch file system

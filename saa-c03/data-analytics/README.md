@@ -19,7 +19,9 @@ Redshift
   - EC2 Instance
 - Snapshots & DR
 - Spectrum
-  - Query data that is already in S3 without loading it 
+  - Query data that is already in S3 without loading it
+  ![spectrum](../../images/redshift_spectrum-1.gif)
+
 
 OpenSearch (ElasticSearch)
 -
