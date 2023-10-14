@@ -5,8 +5,9 @@ Security
   - Data encrypted after being received by the server
 - Client side encryption
 
-AWS KMS
--
+---
+## AWS KMS
+
 - KMS Keys Types
   - Symmetric (AES-256 keys)
   - Asymmetric (RSA & ECC key pairs)
@@ -31,8 +32,9 @@ AWS KMS
 - AMI Sharing Process Encrypted via KMS
   - Modify Launch Permission
 
-SSM Parameter Store
--
+---
+## SSM Parameter Store
+
   - For secrets and configuration management data
   - Standard
     - free
@@ -40,13 +42,15 @@ SSM Parameter Store
     - policies available
       - TTL
 
-AWS Secrets Manager
--
+---
+## AWS Secrets Manager
+
 - Could force rotation
 - Multi-Region Secrets
 
-Certificate Manager (ACM)
--
+---
+## Certificate Manager (ACM)
+
 - TLS Certificates
 - both public or private
 - free of charge for public
@@ -56,8 +60,9 @@ Certificate Manager (ACM)
   - Regional
     - TLS certificate must be imported on API Gateway, in the same region as the API Stage
 
-WAF
--
+---
+## WAF
+
 - Protect web app from common web exploits (Layer 7 is http)
 - Deploy on
   - ALB
@@ -66,24 +71,27 @@ WAF
   - AppSync GraphQL API
   - Cognito User Pool
 
-AWS Shield
--
+---
+## AWS Shield
+
 - Protect from DDOS
 - Standard
   - free, already activated
 - Advanced
   - dedicate support (3000$ per month)
 
-AWS Firewall Manager
--
+---
+## AWS Firewall Manager
+
 - Manage rules in all accounts of an AWS organization
 - security policy
   - WAF rules
   - Shield Advanced
   - SG for EC2
 
-GuardDuty
--
+---
+## GuardDuty
+
 - Intelligent threat discovery to protect your AWS account
 - Input:
   - CloudTrail events
@@ -92,8 +100,9 @@ GuardDuty
 - Can set up eventBridge for notification
 - Can protect against CryptoCurrency attack
 
-Inspector
--
+---
+## Inspector
+
 - Automated Security assessments
 - For EC2
 - For ECR
@@ -101,14 +110,16 @@ Inspector
 - Report to aws security hub or eventBridge
 - Risk score with all vulnerabilities
 
-Macie
--
+---
+## Macie
+
 - Identify and protect sensitive data, such as personally identifiable information (PII)
 - can alert
 - Input: S3
 
-Types of Access Control
--
+---
+## Types of Access Control
+
 ![Types of access control](../../images/typesOfAccessControl.png)
 - IAM 
   - Only grant users within your own AWS account permission to access AWS services

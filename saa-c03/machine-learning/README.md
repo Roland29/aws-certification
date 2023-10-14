@@ -4,21 +4,25 @@ Rekognition
 - Facial search
 - Content Moderation
 
-Transcribe
--
+---
+## Transcribe
+
 - Convert speech to text
 - Could remove PII using Redaction
 
-Polly
--
+---
+## Polly
+
 - Turn text to audio
 - Lexicon & SSML
 
-Translate
--
+---
+## Translate
 
-Lex & Connect
--
+
+---
+## Lex & Connect
+
 - Lex is same techno that powers Alexa
   - ASR to convert speech to text
   - helps build chatbots and call center bots
@@ -26,33 +30,40 @@ Lex & Connect
   - Receive calls -> create contact flows
   - Cloud contact center
 
-Comprehend
--
+---
+## Comprehend
+
 - NLP (Natural language Processing)
 
-Comprehend Medical
--
+---
+## Comprehend Medical
+
 - NLP to detect Protected Health Information (PHI)
 
-SageMaker
--
+---
+## SageMaker
+
 - Manage service for developer or data scientist to build ML models
 
-Forecast
--
+---
+## Forecast
+
 - ML to forecast
 
-Kendra
--
+---
+## Kendra
+
 - Document search service
 - Natural search capabilities
 
-Personalize
--
+---
+## Personalize
+
 - Personalized recommendations
 - Same techno used by Amazon.com
 
-Textract
--
+---
+## Textract
+
 - Extracts text, handwriting, and data from any scanned documents using AI and ML
 

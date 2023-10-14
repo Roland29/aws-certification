@@ -1,23 +1,52 @@
-Database Types
--
-- RDBMS
-  - Aurora
-  - RDS
-  - ElastiCache
-- NoSQL database
-  - DocumentDB
-  - DynamoDB
-  - Keyspace
-- Object store
-  - S3
-- Data wharehouse
-  - Redshift
-- Search
-  - Athena
-  - OpenSearch
-- Graphs
-  - Neptune
-- Ledger
-  - QLDB
-- Time series
-  - Timestream
+# Database Types
+
+<details>
+ <summary><i>Menu</i></summary>
+
+- [RDBMS](#rdbms)
+- [NoSQL](#nosql-database)
+- [Object store](#object-store)
+- [Data wharehouse](#data-wharehouse)
+- [Search](#search)
+- [Graphs](#graphs)
+- [Ledger](#ledger)
+- [Time series](#time-series)
+</details>
+
+---
+## RDBMS
+- [Aurora](../RDS-Aurora-ElastiCache/README.md#aurora)
+- [RDS](../RDS-Aurora-ElastiCache/README.md#rds)
+- [ElastiCache](../RDS-Aurora-ElastiCache/README.md#elasticcache)
+
+---
+## NoSQL database
+
+- DocumentDB
+- [DynamoDB](../serverless/README.md#dynamodb)
+- Keyspace
+
+---
+## Object store
+- [S3](../S3/README.md#s3-basic)
+
+---
+## Data wharehouse
+- [Redshift](../data-analytics/README.md#redshift)
+
+---
+## Search
+- [Athena](../data-analytics/README.md#athena)
+- [OpenSearch](../data-analytics/README.md#opensearch-elasticsearch)
+
+---
+## Graphs
+- Neptune
+
+---
+## Ledger
+- QLDB
+
+---
+## Time series
+- Timestream

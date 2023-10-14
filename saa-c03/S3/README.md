@@ -24,8 +24,9 @@ S3 basic
   - Glacier deep archive
   - Intelligent tiering
 
-Advanced S3
--
+---
+## Advanced S3
+
 - Lifecycle rules
   - transition actions
   - expiration actions
@@ -47,8 +48,9 @@ Advanced S3
   - server-side filtering
 - Batch operation
 
-Security S3 
--
+---
+## Security S3 
+
 - Encryption
   - SSE
     - SSE-S3
@@ -72,8 +74,9 @@ Security S3
 - S3 sync cmd
   - Use CopyObject APIs to copy objects between S3 buckets
 
-S3 Analytics Storage
--
+---
+## S3 Analytics Storage
+
 - Analyze storage access patterns to help you decide when to transition the right data to the right storage class
 - transition less frequently accessed STANDARD storage to the STANDARD_IA
   - Storage class analysis does not give recommendations for transitions to the ONEZONE_IA or S3 Glacier storage classes

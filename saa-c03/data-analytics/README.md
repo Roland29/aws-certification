@@ -1,5 +1,22 @@
-Athena
--
+# Data Analytics
+
+<details>
+ <summary><i>Menu</i></summary>
+
+- [Athena](#athena)
+- [Redshift](#redshift)
+- [OpenSearch](#opensearch-elasticsearch)
+- [EMR](#emr)
+- [QuickSight](#quicksight)
+- [Glue](#glue)
+- [Lake Formation](#lake-formation)
+- [Kinesis Data Analytics](#kinesis-data-analytics)
+- [Amazon MSK](#amazon-msk-managed-streaming-for-apache-kafka)
+</details>
+
+---
+## Athena
+
 - BI
 - Analytic
 - Reporting
@@ -11,8 +28,9 @@ Athena
 - Federated Query
   - Use lambda (data source connector) to run sql queries across data stored
 
-Redshift
--
+---
+## Redshift
+
 - Must load data first before queries
   - Kinesis Data Firehose
   - S3 using Copy command
@@ -23,19 +41,22 @@ Redshift
   ![spectrum](../../images/redshift_spectrum-1.gif)
 
 
-OpenSearch (ElasticSearch)
--
+---
+## OpenSearch (ElasticSearch)
+
 - 2 modes
   - Managed cluster
   - Serverless cluster
 - Queries with partial matches
 
-EMR
--
+---
+## EMR
+
 - Hadoop clusters (Big Data)
 
-QuickSight
--
+---
+## QuickSight
+
 - BI dashboard
 - Serverless
 - could be embedded
@@ -43,8 +64,9 @@ QuickSight
 - Column-level security (CLS)
 - Define Users
 
-Glue
--
+---
+## Glue
+
 - ETL
 - Convert data into Parquet format
 - Glue Data Catalog
@@ -55,17 +77,19 @@ Glue
 - Glue Studio (GUI)
 - Glue Streaming ETL
 
-Lake Formation
--
+---
+## Lake Formation
+
 - Store in S3
 
-Kinesis Data Analytics
--
+---
+## Kinesis Data Analytics
+
 - For SQL applications
 - For apache Flink
 
-Amazon MSK (Managed Streaming for apache kafka)
--
+---
+## Amazon MSK (Managed Streaming for apache kafka)
 
-BIG DATA
--
+- Big Data
+

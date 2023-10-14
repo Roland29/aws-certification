@@ -8,8 +8,9 @@ Snow Family
   - snowmobile
     - 100 PB capacity
 
-FSX
--
+---
+## FSX
+
 - Windows file server 
 - Lustre
   - easy and cost-effective to launch and run the world’s most popular high-performance file system
@@ -25,8 +26,9 @@ FSX
   - Compatible with windows, linux & mac
   - NFS
 
-Hybrid Cloud Storage
--
+---
+## Hybrid Cloud Storage
+
 - Storage Cloud Native
   - Block
   - File
@@ -40,16 +42,18 @@ Hybrid Cloud Storage
   - Tape gateway
   - Hardware Gateway
 
-Transfer Family
-- 
+---
+## Transfer Family
+ 
 - FTP
 - FTPS
 - SFTP
 
 To S3 or EFS
 
-DataSync
--
+---
+## DataSync
+
 - Move large amount of data to and from
 - Can synchronize to
 - Replication task

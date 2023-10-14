@@ -18,8 +18,9 @@ CloudWatch
 - Alarms
   - can automatically stop, terminate, reboot, or recover your EC2 instances 
 
-EventBridge
--
+---
+## EventBridge
+
 - Schedule cron jobs
 - cross account capability
 - Advanced filtering
@@ -30,23 +31,28 @@ EventBridge
   - Reliable delivery
 - Outputs => Over 18 AWS services
 
-Cloudwatch container Insight
--
+---
+## Cloudwatch container Insight
+
 - using containerized version of cloudwatch agent to discover containers
 
-Cloudwatch lambda Insight
--
+---
+## Cloudwatch lambda Insight
 
-Cloudwatch Contributor Insight
--
+
+---
+## Cloudwatch Contributor Insight
+
 - Identify the heaviest work network users
 
-Cloudwatch Application Insight
--
+---
+## Cloudwatch Application Insight
+
 - Automated dashboard to monitor applications
 
-CloudTrail
--
+---
+## CloudTrail
+
 - GET history of events / API calls made within your AWS Account by:
   - SDK
   - Console
@@ -64,8 +70,9 @@ CloudTrail
   - Stored 90 days
   - Send to S3
 
-AWS Config
--
+---
+## AWS Config
+
 - config rules per region
 - could add remediation
 - Can send Notifications

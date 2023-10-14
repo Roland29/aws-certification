@@ -6,8 +6,9 @@ Types
 - Alias -> AWS resources
 - NS -> server name
 
-Policies
-- 
+---
+## Policies
+ 
   - Simple
   - Weight
   - Multi-Value
@@ -17,10 +18,11 @@ Policies
   - GeoProximity
   - IP base routing
 
-HealthCheck
--
+---
+## HealthCheck
+
 - For VPC -> healthcheck cloudwatch alarm
 - Calculate healthCheck -> base on other healthCheck
 
-TTL
--
+---
+## TTL

@@ -28,8 +28,9 @@ Lambda
 
 ![VPC lambda](../../images/vpcLambda.png)
 
-DynamoDB
-- 
+---
+## DynamoDB
+ 
 - Tables
   - Maximum size of an item 400 KB
 - PK
@@ -52,8 +53,9 @@ DynamoDB
   - Export
   - Import
 
-API Gateway
--
+---
+## API Gateway
+
 - websocket
 - API versioning
 - environment
@@ -72,13 +74,15 @@ API Gateway
   - Regional
   - Private
 
-Step Functions
--
+---
+## Step Functions
+
 - Workflow to orchestrate lambda functions
 - Human interaction can be a step
 
-Cognito
--
+---
+## Cognito
+
 - User Pools
 - Identity Pools
   - Access AWS services directly

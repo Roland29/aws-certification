@@ -1,5 +1,15 @@
-CloudFront
--
+# CloudFront
+
+<details>
+ <summary><i>Menu</i></summary>
+
+- [CloudFront](#cloudfront-1)
+- [AWS Global Accelerator](#aws-global-accelerator)
+</details>
+
+---
+## CloudFront
+
 - CDN
 - S3 origin
 - GeoRestriction
@@ -11,8 +21,9 @@ CloudFront
 - Unicast IP / Anycast IP
 - supports HTTP/RTMP protocol based requests
 
-AWS Global Accelerator
--
+---
+## AWS Global Accelerator
+
 - Improve the availability and performance of the applications
   - Static IP addresses
     - fixed entry point to your applications

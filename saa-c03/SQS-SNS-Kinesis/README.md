@@ -1,7 +1,8 @@
 SQS
 -
-Queue model
-- Retention 4 days to 14 days
+---
+## Queue model
+ Retention 4 days to 14 days
 - low latency (<10ms on pub/receive)
 - Limit of 256 KB
 - security
@@ -16,10 +17,12 @@ Queue model
   - name end with the __.fifo__ suffix
 - Auto-scaling group (ASG)
 
-SNS
--
-Pub/sub model
-- security
+---
+## SNS
+
+---
+## Pub/sub model
+ security
     - Encryption
     - Access control
     - SQS Access Policies
@@ -30,8 +33,9 @@ Pub/sub model
 - FIFO
 - Message Filtering
 
-Kinesis Data Streams
--
+---
+## Kinesis Data Streams
+
 - massively scalable and durable real-time data streaming service
   - can continuously capture gigabytes of data per second from hundreds of thousands of sources
 - Can scale # of shards
@@ -41,8 +45,9 @@ Kinesis Data Streams
   - Provisioned mode
   - On-demand mode
 
-Kinesis Data Firehose
--
+---
+## Kinesis Data Firehose
+
 - Put upt to 1 MB
 - read batch writes
 - Buffer
@@ -53,13 +58,16 @@ Kinesis Data Firehose
   - OpenSearch
   - Splunk
 
-Kinesis Data Analytics
--
+---
+## Kinesis Data Analytics
 
-Kinesis Video Streams
--
 
-Amazon MQ
--
+---
+## Kinesis Video Streams
+
+
+---
+## Amazon MQ
+
 - RabbitMQ
 - ActiveMQ
