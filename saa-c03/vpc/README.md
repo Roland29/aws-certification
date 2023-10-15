@@ -1,4 +1,4 @@
-# VPC
+# Virtual Private Cloud (VPC)
 
 <details>
  <summary><i>Menu</i></summary>
@@ -127,6 +127,7 @@
 ---  
 ## Direct Connect (DX)
 - Provides a dedicated private connection from remote network to your VPC
+- Data transfer pricing over Direct Connect is lower than data transfer pricing over the internet
 - Direct Connect Gateway
 - Connection Types
   - Dedicated Connections

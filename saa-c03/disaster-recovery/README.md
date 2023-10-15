@@ -44,6 +44,9 @@
   - streaming platforms (Kinesis, ...)
   - other data stores in AWS cloud (S3)
 - Source database remains fully operational during the migration
+- Basic Schema Copy
+  - Automatically create tables and primary keys in the target instance
+  - will not migrate secondary indexes, foreign keys or stored procedures
 - continuous-data-replication:
 
 ![AWS-DMS_continuous-data-replication](../../images/AWS-DMS_continuous-data-replication.png)

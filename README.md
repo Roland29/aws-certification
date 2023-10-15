@@ -16,7 +16,7 @@
 - [X] [Machine Learning](./saa-c03/machine-learning/README.md)
 - [X] [Monitoring & Audit](./saa-c03/monitoring-audit/README.md)
 - [X] [Security](./saa-c03/security/README.md)
-- [X] [Networking](./saa-c03/networking/README.md)
+- [X] [VPC](./saa-c03/vpc/README.md)
 - [X] [Disaster & Recovery](./saa-c03/disaster-recovery/README.md)
 - [X] [Other services](./saa-c03/other-services/README.md)
 

@@ -16,7 +16,14 @@
   - snowcone
       - 8 TB HDD | 14 TB SSD
   - snowball
-    - 80 TB usable 
+    - 80 TB usable
+    - Edge
+      - up to 80 TB of usable HDD storage
+      - 40 vCPUs
+      - 1 TB of SATA SSD storage
+      - and up to 40 Gb network connectivity 
+      - To address large scale data transfer and pre-processing use cases
+    - Can be copied into the S3 bucket
   - snowmobile
     - 100 PB capacity
 

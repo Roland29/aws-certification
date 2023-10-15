@@ -19,7 +19,7 @@
   - Maria DB
 - Read replicas
 - Multi AZ
-- __BUT you can’t SSH into your instances__
+- __BUT you can’t SSH into your instances__ (except _Custom RDS_)
 - Storage Auto Scaling
   - You have to set Maximum Storage Threshold (maximum limit for DB storage)
 - Up to 15 Read Replicas
@@ -33,6 +33,7 @@
 - Restore
   - create a new database
     - restore from S3
+- Configure RDS to use SSL for data in transit
 
 ---
 ## Aurora

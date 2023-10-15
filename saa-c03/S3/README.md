@@ -38,11 +38,14 @@
 ### Storage classes
 - Standard - general purpose
 - standard - infrequent access
-- One zone-infrequent access
+- Intelligent tiering
+- One zone - infrequent access
+  - Unlike other S3 Storage Classes which store data in a minimum of three Availability Zones (AZs), S3 One Zone-IA stores data in a single AZ and costs 20% less than S3 Standard-IA
 - Glacier instant retrieval
 - Glacier flexible retrieval
 - Glacier deep archive
-- Intelligent tiering
+- The minimum storage duration is __30 days__ before you can transition objects
+![transition](../../images/lifecycle-transitions-v2.png)
 
 ---
 ## Advanced
