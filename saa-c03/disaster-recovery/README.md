@@ -9,7 +9,7 @@
 - [AWS Backup](#aws-backup)
 - [Application Discovery Service](#disaster--recovery)
 - [MGM](#application-migration-service-mgm)
-- [VMware cloud](#vmware-cloud-on-aws)
+- [Vmware cloud](#vmware-cloud-on-aws)
 - [Transfer large amount of data](#transfer-large-amount-of-data)
 </details>
 
@@ -77,7 +77,7 @@ The Amazon Redshift cluster must be in the same AWS account and the same AWS Reg
 - Migrate application to AWS
 
 ---
-## VMware cloud on AWS
+## Vmware cloud on AWS
 
 ---
 ## Transfer large amount of data

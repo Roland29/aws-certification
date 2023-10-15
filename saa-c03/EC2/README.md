@@ -7,7 +7,7 @@
 - [Launch Template](#launch-template)
 - [Launch Instance](#launch-instance)
 - [User Data](#user-data)
-- [EBS](#-amazon-elastic-block-store-ebs)
+- [EBS](#amazon-elastic-block-store-ebs)
 </details>
 
 ---

@@ -107,8 +107,8 @@
   - subnet
   - ENI
 - Syntax
-  - srcaddr & dstaddr
-  - srcport & dstport
+  - srcAddr & dstAddr
+  - srcPort & dstPort
   - Action
 - To troubleshoot we check Action
 
