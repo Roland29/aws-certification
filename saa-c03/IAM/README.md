@@ -3,7 +3,7 @@
 <details>
  <summary><i>Menu</i></summary>
 
-- [IAM users](#iam-users)
+- [IAM section](#iam-section)
 - [IAM Roles](#iam-roles)
 - [AWS Organisation](#aws-organisation)
 - [IAM Conditions](#iam-conditions)
@@ -15,8 +15,20 @@
 </details>
 
 ---
-## IAM users
+## IAM Section
 
+- Don’t use the root account except for AWS account setup
+- One physical user = One AWS user
+- Assign users to groups and assign permissions to groups
+- Create a strong password policy
+- Use and enforce the use of Multi-Factor Authentication (MFA)
+- Create and use Roles for giving permissions to AWS services
+- Use Access Keys for Programmatic Access (CLI / SDK)
+- Audit permissions of your account using IAM Credentials Report & IAM Access Advisor
+
+- Users: mapped to a physical user, has a password for AWS Console
+- Groups: contains users only
+- Policies: JSON document that outlines permissions for users or groups • Roles: for EC2 instances or AWS services
 
 ---
 ## IAM Roles
