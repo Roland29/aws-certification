@@ -20,6 +20,7 @@
   - On-demand instances
     - Pay, by the second, for the instances that you launch
   - on spot
+    - price (0.0035$ per hour)
   - Reserved instances
     - Reduce your Amazon EC2 costs by making a commitment to a consistent instance configuration, including instance type and Region, for a term of 1 or 3 years
   - Cluster group
@@ -71,3 +72,4 @@
   - Any snapshot created from the volume is encrypted
   - Data moving between the volume and the instance is encrypted
     - Use KMS
+- Cost 0.10$ per GB provisioned

@@ -45,8 +45,12 @@
   - SSE-C -> never replicated
   - SSE-KMS -> need enable option
     - object will be decrypted then encrypted
+    - Audit trail to see when and by whom
 - AMI Sharing Process Encrypted via KMS
   - Modify Launch Permission
+- Delete key
+  - waiting period minimum 7 days to 30 days (default 30d)
+  - during period the status is __Pending deletion__
 
 ---
 ## SSM Parameter Store
@@ -73,6 +77,7 @@
   - Regional
     - TLS certificate must be imported on API Gateway, in the same region as the API Stage
 
+
 ---
 ## WAF
 - Protect web app from common web exploits (Layer 7 is http)
@@ -82,6 +87,9 @@
   - CloudFront
   - AppSync GraphQL API
   - Cognito User Pool
+- allow or block requests based on rules:
+  - wab ACL
+  - Geographic (geo match)
 
 ---
 ## AWS Shield
@@ -108,6 +116,8 @@
   - DNS Logs
 - Can set up eventBridge for notification
 - Can protect against CryptoCurrency attack
+- Disable the service in the general settings
+  - delete all remaining data, including your findings and configurations before relinquishing the service permissions and resetting the service
 
 ---
 ## Inspector

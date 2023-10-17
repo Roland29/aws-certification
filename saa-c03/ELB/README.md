@@ -40,7 +40,15 @@
 - [Launch template](../EC2/README.md#launch-template) 
 - Dynamic scaling policies
   - Target tracking scaling
-  - simple / Step scaling
+    - based on a Amazon CloudWatch metric
+    - and a target value
+  - Step scaling
+    - base on a set of scaling adjustments that vary based on the size of the alarm breach
+  - simple 
+    - based on a single scaling adjustment, with a cool down period between each scaling activity
   - scheduled Action
+    - scaling action at a certain designated hour
 - Predictive Scaling
   - predictive scaling
+- Standby mode to update some software
+- ReplaceUnhealthy (can be suspended)

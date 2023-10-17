@@ -81,6 +81,9 @@
 - Events Retention
   - Stored 90 days
   - Send to S3
+- outputs:
+  - S3
+  - Cloudwatch
 
 ---
 ## AWS Config

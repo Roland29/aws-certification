@@ -38,10 +38,13 @@
 ### Storage classes
 - Standard - general purpose
 - standard - infrequent access
+  - minimum storage duration charge is 30 days
 - Intelligent tiering
 - One zone - infrequent access
   - Unlike other S3 Storage Classes which store data in a minimum of three Availability Zones (AZs), S3 One Zone-IA stores data in a single AZ and costs 20% less than S3 Standard-IA
+  - minimum storage duration charge is 30 days
 - Glacier instant retrieval
+  - minimum storage duration charge is 90 days
 - Glacier flexible retrieval
 - Glacier deep archive
 - The minimum storage duration is __30 days__ before you can transition objects
@@ -63,8 +66,9 @@
 - 3500 put/copy/post/delete & 5500 get/head request per second per prefix in a bucket
 - Multi-part upload
   - object size over 100MB
-- Transfer acceleration
+- S3 Transfer acceleration
   - Enables fast, easy, and secure transfers of files over long distances between your client and an S3 bucket.
+  - pay only for transfers that are accelerated
 - Byte-Range fetch
 ### Select & Glacier Select
 - server-side filtering

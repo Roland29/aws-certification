@@ -37,6 +37,7 @@
   - can use up to 5 layers at a time
 - security IAM role
 ![VPC lambda](../../images/vpcLambda.png)
+- Price 0.06$ per hour
 
 ---
 ## DynamoDB
@@ -81,6 +82,9 @@
   - Edge-Optimized (default)
   - Regional
   - Private
+- supports:
+  - stateless RESTful APIs
+  - stateful WebSocket APIs
 
 ---
 ## Step Functions

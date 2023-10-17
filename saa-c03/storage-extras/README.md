@@ -8,6 +8,7 @@
 - [Hybrid Cloud Storage](#hybrid-cloud-storage)
 - [Transfer Family](#transfer-family)
 - [DataSync](#datasync)
+- [EFS](#amazon-elastic-file-storage-efs)
 </details>
 
 ---
@@ -54,9 +55,11 @@
   - S3 file gateway
   - FSx file gateway
   - Volume gateway
+    - does not support NFS
     - Cached Volume
     - Stored Volume
   - Tape gateway
+    - does not support NFS
   - Hardware Gateway
 
 ---
@@ -80,3 +83,7 @@ To S3 or EFS
   - Fsx Lustre
   - Fsx OpenZFS
   - Fsx NetApp ONTAP
+
+___
+## Amazon Elastic file storage EFS
+- Cost 0.30$ per GB for the resources that is used

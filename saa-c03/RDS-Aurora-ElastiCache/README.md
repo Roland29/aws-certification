@@ -56,6 +56,9 @@
 - Cloning
   - faster than snapshot & restore
   - Useful to create a “staging” database from a “production” database without impacting the production database
+- In case fail over -> Promote
+  - the lowest numbered tier
+  - if two or more Aurora Replicas share the same priority, then Amazon RDS promotes the replica that is largest
 
 ---
 ## Security RDS & Aurora

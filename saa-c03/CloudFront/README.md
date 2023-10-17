@@ -21,6 +21,9 @@
 - Cache invalidation
 - Uni cast IP / Any cast IP
 - supports HTTP/RTMP protocol based requests
+- Region edge cache:
+  - __NOT FOR__: Dynamic content, as determined at request time (cache-behavior configured to forward all headers)
+  - __NOT FOR__: Proxy methods PUT/POST/PATCH/OPTIONS/DELETE go directly to the origin
 
 ---
 ## AWS Global Accelerator
