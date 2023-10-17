@@ -1,8 +1,8 @@
 # aws-certification
 
-- [ ] [IAM](./saa-c03/IAM/README.md)
-- [ ] [EC2](./saa-c03/EC2/README.md)
-- [ ] [ELB](./saa-c03/ELB/README.md)
+- [X] [IAM](./saa-c03/IAM/README.md)
+- [X] [EC2](./saa-c03/EC2/README.md)
+- [X] [ELB](./saa-c03/ELB/README.md)
 - [X] [RDS-Aurora-ElastiCache](./saa-c03/RDS-Aurora-ElastiCache/README.md)
 - [X] [Route53](./saa-c03/Route53/README.md)
 - [X] [S3](./saa-c03/S3/README.md)
