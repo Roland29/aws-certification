@@ -38,6 +38,7 @@
   - every year only
 - KMS Multi-Region Keys
   - Are not Global
+  - Which are AWS KMS keys in different AWS regions that can be used interchangeably
   - Each Multi-Region key is managed independently
   - Use cases: global client-side encryption, encryption Global DynamoDB or Global Aurora
 - S3 replication encryption

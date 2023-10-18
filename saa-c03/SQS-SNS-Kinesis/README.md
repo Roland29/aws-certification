@@ -5,6 +5,7 @@
 
 - [SQS](#sqs)
 - [SNS](#sns)
+- [Kinesis Data Agent](#kinesis-agent)
 - [Kinesis Data Streams](#kinesis-data-streams)
 - [Kinesis Data Firehose](#kinesis-data-firehose)
 - [Kinesis Data Analytics](#kinesis-data-analytics)
@@ -60,6 +61,12 @@
 - __Message Filtering__
 
 ---
+## Kinesis Agent
+- stand-alone Java software application that offers an easy way to collect and send data to
+  - Kinesis Data Streams
+  - Kinesis Firehose
+
+---
 ## Kinesis Data Streams
 - Capture, process, and store data streams
 - massively scalable and durable real-time data streaming service
@@ -70,6 +77,7 @@
 - Capacity Modes
   - Provisioned mode
   - On-demand mode
+- Can only have as many consumers as shards
 
 ---
 ## Kinesis Data Firehose
@@ -78,11 +86,14 @@
 - read batch writes
 - Buffer
 - Flush
+- Input:
+  - only one ?
 - outputs:
   - S3
   - Redshift
   - OpenSearch
   - Splunk
+![KDF](../../images/Amazon-Kinesis-Data-Firehose.png)
 
 ---
 ## Kinesis Data Analytics

@@ -52,3 +52,8 @@
   - predictive scaling
 - Standby mode to update some software
 - ReplaceUnhealthy (can be suspended)
+- Termination policy:
+  1. Any allocation strategy for On-Demand vs Spot instances
+  2. instance that uses a launch configuration
+  3. instance with the oldest launch template
+  4. 

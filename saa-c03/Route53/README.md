@@ -36,3 +36,12 @@
 ---
 ## TTL
 - Time to live
+
+---
+## Hosted zones
+- Public Hosted zones
+  - contains records that specify how to route traffic on the Internet (public domain names)
+- Private Hosted zones
+  - contain records that specify how you route traffic within one or more VPCs (private domain names)
+  - DNS hostnames and DNS resolution are required settings for private hosted zones
+![public vs private hosted zones](../../images/publicVsPrivate%20HostedZones.png)

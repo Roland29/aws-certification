@@ -152,6 +152,7 @@
 ## Transit Gateway
 - To scale up an AWS Site-to-Site VPN connection throughput
 - Network transit hub that you can use to interconnect your virtual private clouds (VPC) and on-premises networks
+![transitGateway](../../images/transitGateway.png)
 
 ---
 ## VPC - Traffic Mirroring

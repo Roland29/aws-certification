@@ -87,3 +87,14 @@ To S3 or EFS
 ___
 ## Amazon Elastic file storage EFS
 - Cost 0.30$ per GB for the resources that is used
+- file storage service for use with Amazon compute
+  - EC2
+  - containers
+  - serverless
+  - on-premises
+- Storage class:
+  - standard
+    -  ideal for workloads that require the highest levels of durability and availability
+  - Standard-IA
+    - reduces storage costs for files that are not accessed every day
+    - without sacrificing the high availability, high durability, elasticity, and POSIX file system access that Amazon EFS provides
