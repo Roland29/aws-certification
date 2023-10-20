@@ -34,6 +34,7 @@
 ![cross-zone](../../images/crossZone.png)
 - SSL
 - Connection Draining
+  - This enables the load balancer to complete in-flight requests made to instances that are de-registering or unhealthy
 
 ---
 ## Auto Scaling group (ASG)
@@ -56,4 +57,4 @@
   1. Any allocation strategy for On-Demand vs Spot instances
   2. instance that uses a launch configuration
   3. instance with the oldest launch template
-  4. 
+![spot lifecycle](../../images/spot_lifecycle.png)

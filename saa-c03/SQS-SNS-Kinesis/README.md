@@ -38,7 +38,7 @@
   - 300 messages per second without batching (300 send, receive, or delete operations per second)
   - name end with the __.fifo__ suffix
 - Auto-scaling group (ASG)
-
+![SQS delay](../../images/sqs-delay-queues-diagram.png)
 ---
 ## SNS
 - Pub/sub model

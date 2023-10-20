@@ -8,6 +8,7 @@
 - [Launch Instance](#launch-instance)
 - [User Data](#user-data)
 - [EBS](#amazon-elastic-block-store-ebs)
+- [Network Interface](#network-interface)
 </details>
 
 ---
@@ -73,3 +74,14 @@
   - Data moving between the volume and the instance is encrypted
     - Use KMS
 - Cost 0.10$ per GB provisioned
+- Does not support SMB
+
+---
+## Network Interface
+  - Elastic Network Interface (ENI)
+    - logical networking component in a VPC that represents a virtual network card
+  - Elastic Network Adapter (ENA)
+    - support enhanced networking via single root I/O virtualization (SR-IOV) to provide high-performance networking capabilities
+  - Elastic Fabric Adapter (EFA)
+    - ENA
+    - Plus a new OS bypass hardware interface that allows user-space applications to communicate directly with the hardware-provided reliable transport functionality.

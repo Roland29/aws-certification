@@ -140,6 +140,7 @@
 ![Types of access control](../../images/typesOfAccessControl.png)
 - IAM 
   - Only grant users within your own AWS account permission to access AWS services
+- Trust policy
 - ACL
   - Only grant other AWS accounts (not specific users) access to your Amazon resources
 - Security Group

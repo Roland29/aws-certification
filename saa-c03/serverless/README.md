@@ -47,7 +47,13 @@
 - schema can evolve rapidly
 - Read/Write capacity
   - Provisioned Mode
+    - predictable application traffic
+    - traffic is consistent or ramps gradually
+    - can forecast capacity requirements to control costs
   - On-Demand Mode
+    - unpredictable application traffic
+    - new tables with unknown workloads
+    - ease of paying for only what you use
 - DAX
   - Does not support SQL query caching
 - Stream Processing

@@ -24,6 +24,7 @@
       - 1 TB of SATA SSD storage
       - and up to 40 Gb network connectivity 
       - To address large scale data transfer and pre-processing use cases
+      - storage clustering feature
     - Can be copied into the S3 bucket
   - snowmobile
     - 100 PB capacity
@@ -52,14 +53,19 @@
   - File
   - Object
 - Storage Gateway
-  - S3 file gateway
-  - FSx file gateway
+  - File gateway
+    - s3
+    - FSx
+    - SMB
   - Volume gateway
     - does not support NFS
     - Cached Volume
+      - stores the full volume in its Amazon S3 service bucket, and just the recently accessed data is retained in the gateway’s local cache for low-latency access.
     - Stored Volume
+      - With stored volumes, your entire data volume is available locally in the gateway, for fast read access. Volume Gateway also maintains an asynchronous copy of your stored volume in the service’s Amazon S3 bucket
   - Tape gateway
     - does not support NFS
+    ![tape gateway](../../images/tapeGateway.jpg)
   - Hardware Gateway
 
 ---
@@ -98,3 +104,4 @@ ___
   - Standard-IA
     - reduces storage costs for files that are not accessed every day
     - without sacrificing the high availability, high durability, elasticity, and POSIX file system access that Amazon EFS provides
+- Does not support SMB

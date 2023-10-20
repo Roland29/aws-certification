@@ -72,6 +72,11 @@ ex: IAM role that you create for the Lambda function is in the same AWS account 
 
 ![Permission boundaries](../../images/permissionBoundaries.png)
 
+
+---
+## Trust policy
+- define which principal entities (accounts, users, roles, and federated users) can assume the role.
+
 ---
 ## IAM Identity Center
 - Replace SSO
@@ -83,9 +88,18 @@ ex: IAM role that you create for the Lambda function is in the same AWS account 
 ---
 ## AWS Directory Services
 - Managed Microsoft AD
+  - Microsoft Windows Server Active Directory (AD), managed by AWS
+  - \> 5000 user
+  - trust relationships
 - AD Connector
   - Just a proxy to on-prem AD
+  - simply connects your existing on-premises Active Directory to AWS
 - Simple AD
+  - subset of the features offered by AWS Managed
+  - does not support features such as trust relationships with other domains
+  - less than 5000 user
+- Amazon Cloud Directory
+  - cannot use it to establish trust relationships with other domains on the on-premises infrastructure
 
 ---
 ## AWS Control Tower

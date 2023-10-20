@@ -21,10 +21,16 @@
 ---
 ## Strategies
 - Backup & Restore (High RPO)
+  - RPO in hours
 - Pilot Light
+  - a minimal version of an environment is always running in the cloud
+  - RPO/RTO is in 10s of minutes
 - Warm standby
+  - scaled-down version of a fully functional environment is always running
 - Multi Site / Hot Site Approach
+  - an active-active configuration
 - AWS Multi Region
+![recovery strategies](../../images/recovery.jpg)
 
 ---
 ## DMS - Database Migration Service
