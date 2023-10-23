@@ -68,6 +68,7 @@
 - Integration with S3
   - Export
   - Import
+- By default, all DynamoDB tables are encrypted under an AWS owned customer master key (CMK), which do not write to CloudTrail logs
 
 ---
 ## API Gateway

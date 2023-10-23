@@ -47,6 +47,7 @@
   - minimum storage duration charge is 90 days
 - Glacier flexible retrieval
 - Glacier deep archive
+  - retrieval within 12 hours (48h with bulk to reduce the cost)
 - The minimum storage duration is __30 days__ before you can transition objects
 ![transition](../../images/lifecycle-transitions-v2.png)
 
@@ -59,6 +60,7 @@
 - requester must be known by aws
 ### Event notifications
 - SQS
+  - not __FIFO__
 - SNS
 - Lambda
 - EventBridge -> 18 others aws services & more advanced filtering, multiple destination,...
@@ -104,3 +106,7 @@
 - Analyze storage access patterns to help you decide when to transition the right data to the right storage class
 - transition less frequently accessed STANDARD storage to the STANDARD_IA
   - Storage class analysis does not give recommendations for transitions to the ONEZONE_IA or S3 Glacier storage classes
+
+## URL
+- http://bucket-name.s3-website.Region.amazonaws.com
+- http://bucket-name.s3-website-Region.amazonaws.com

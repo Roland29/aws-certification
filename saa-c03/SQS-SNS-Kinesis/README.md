@@ -78,6 +78,7 @@
   - Provisioned mode
   - On-demand mode
 - Can only have as many consumers as shards
+- Batch messages
 
 ---
 ## Kinesis Data Firehose

@@ -75,6 +75,7 @@
     - Use KMS
 - Cost 0.10$ per GB provisioned
 - Does not support SMB
+- It's confined to an Availability Zone and not by region
 
 ---
 ## Network Interface
@@ -85,3 +86,12 @@
   - Elastic Fabric Adapter (EFA)
     - ENA
     - Plus a new OS bypass hardware interface that allows user-space applications to communicate directly with the hardware-provided reliable transport functionality.
+
+---
+## Retrieve instance metadata or user data
+- ipv4
+  - http://169.254.169.254/latest/meta-data/
+  - http://169.254.169.254/latest/user-data
+- ipv6
+  - http://[fd00:ec2::254]/latest/meta-data/
+  - http://[fd00:ec2::254]/latest/user-data

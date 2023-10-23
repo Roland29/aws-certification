@@ -14,6 +14,7 @@
 ## Application Load Balancer (ALB)
 - security group
 ![ALB security group](../../images/ALB_SG.jpg)
+- ALB cannot use EC2 based health checks
 
 ---
 ## Network Load Balancer (NLB)
@@ -41,7 +42,7 @@
 - [Launch template](../EC2/README.md#launch-template) 
 - Dynamic scaling policies
   - Target tracking scaling
-    - based on a Amazon CloudWatch metric
+    - based on an Amazon CloudWatch metric
     - and a target value
   - Step scaling
     - base on a set of scaling adjustments that vary based on the size of the alarm breach
@@ -57,4 +58,5 @@
   1. Any allocation strategy for On-Demand vs Spot instances
   2. instance that uses a launch configuration
   3. instance with the oldest launch template
+- Across multiple Availability Zones within a Region
 ![spot lifecycle](../../images/spot_lifecycle.png)

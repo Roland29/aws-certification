@@ -24,6 +24,8 @@
 - Multi-Value
 - Latency
 - Fail-over
+  - active-passive
+    - secondary resource to be on standby in case all the primary resources become unavailable
 - Geolocation
 - GeoProximity
 - IP base routing
