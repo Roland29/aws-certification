@@ -57,6 +57,7 @@
     - s3
     - FSx
     - SMB
+    ![file gateway](../../images/fileGateway.jpg)
   - Volume gateway
     - does not support NFS
     - Cached Volume

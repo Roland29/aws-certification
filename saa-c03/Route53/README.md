@@ -46,4 +46,6 @@
 - Private Hosted zones
   - contain records that specify how you route traffic within one or more VPCs (private domain names)
   - DNS hostnames and DNS resolution are required settings for private hosted zones
+    - enableDnsSupport
+    - enableDnsHostnames
 ![public vs private hosted zones](../../images/publicVsPrivate%20HostedZones.png)

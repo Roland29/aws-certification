@@ -76,6 +76,8 @@
 - Cost 0.10$ per GB provisioned
 - Does not support SMB
 - It's confined to an Availability Zone and not by region
+- RAID config:
+  - ![RAID](../../images/raidConfig.jpg)
 
 ---
 ## Network Interface
