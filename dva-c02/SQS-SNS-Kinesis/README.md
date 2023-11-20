@@ -79,6 +79,9 @@
   - On-demand mode
 - Can only have as many consumers as shards
 - Batch messages
+- Operations
+  - Shared splitting 1 -> 2
+  - Shared merging 2 -> 1 
 
 ---
 ## Kinesis Data Firehose
