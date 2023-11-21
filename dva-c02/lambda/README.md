@@ -3,7 +3,7 @@
 <details>
  <summary><i>Menu</i></summary>
 
-- [Lambda](#lambda)
+- [Lambda](#lambda-1)
 </details>
 
 ---
@@ -34,3 +34,49 @@
 - security IAM role
 ![VPC lambda](../../images/vpcLambda.png)
 - Price 0.06$ per hour
+- Types
+  - Asynchronous
+    - can use a DLQ
+  - Synchronous
+  - Events source mappings
+    - Kinesis Data Streams & DynamoDB Streams
+      - One Lambda invocation per stream shard
+      - If you use parallelization, up to 10 batches processed per shard simultaneously
+    - SQS Standard
+      - Lambda adds 60 more instances per minute to scale up
+      - Up to 1000 batches of messages processed simultaneously
+    - SQS FIFO
+      - Messages with the same GroupID will be processed in order
+      - The Lambda function scales to the number of active message groups
+- Event Object
+- Context Object
+- Destinations
+  - for success
+  - failure
+- Concurrency
+  - Up to 1000
+  - Provisioned
+  - Reserved
+
+---
+## Lambda + ALB
+- Need to create a Target Group for the ALB to use Lambda
+- Multi-Headers values
+  - if enable on ALB -> transform in list inside  JSON
+
+
+---
+## Lambda X-Ray
+- daemon address
+
+---
+## Edge function
+- Cloudfront function 
+  - million requests/second
+  - viewer request and response
+  -   execution time < 1ms
+- lambda@edge
+  - 1000s requests/second
+  - viewer request and response
+  - origin  request and response
+  - execution time 5 to 10 seconds
