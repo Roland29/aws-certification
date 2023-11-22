@@ -23,7 +23,7 @@
 - Retry
   - ErrorEquals: match a specific kind of error
   - Inter valSeconds: initial delay before retrying
-  - BackoffRate: multiple the delay after each retry
+  - BackoffRate: multiply the delay after each retry
   - MaxAttempts: default to 3, set to 0 for never retried
 - Catch
   - ErrorEquals: match a specific kind of error
@@ -32,8 +32,8 @@
   - ![catch](../../images/catchStepFunctions.png)
 - Activity Task
 - Wait for Task Token
-- Standard
-- Express
+- Standard vs Express
+  - ![standard vs express](../../images/stepFunctionStandardVsExpress.png)
 
 ---
 ## AppSync
