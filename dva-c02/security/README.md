@@ -52,6 +52,12 @@
 - Delete key
   - waiting period minimum 7 days to 30 days (default 30d)
   - during period the status is __Pending deletion__
+- KMS symmetric
+  - Encrypt: encrypt up to 4 KB of data through KMS
+  - GenerateDataKey
+  - GenerateDataKeyWithoutPlaintext
+  - Decrypt
+  - GenerateRandom
 
 ---
 ## SSM Parameter Store
