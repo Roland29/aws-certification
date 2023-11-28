@@ -18,3 +18,5 @@
   - API Gateway
   - ALB
 - ![CUP with CIP](../../images/CUP&CIP.png)
+- Cognito Sync
+  - enables cross-device syncing of application-related user data

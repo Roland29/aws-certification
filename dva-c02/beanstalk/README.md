@@ -21,8 +21,8 @@
   - High Availability with Load Balancer (prod)
 - Options for Updates
     - All at once
-    - Rolling
-    - Rolling with additional batches
+    - Rolling (if failure it manual)
+    - Rolling with additional batches (if failure it manual)
     - Immutable
     - Blue Green
     - Traffic Splitting (canary testing)

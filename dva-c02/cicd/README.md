@@ -23,7 +23,8 @@
 
 ---
 ## CodeBuild
-- buikdspec.yml at root of code repo
+- buildspec.yml at root of code repo
+- Bundle the dependencies in the source code during the build stage
 
 ---
 ## CodeDeploy

@@ -64,6 +64,11 @@
 - Multi-Headers values
   - if enable on ALB -> transform in list inside  JSON
 
+---
+## Lambda + application Auto-scaling
+- Application Auto Scaling to manage provisioned concurrency on a schedule or based on utilization.
+- Use scheduled scaling to increase provisioned concurrency in anticipation of peak traffic.
+
 
 ---
 ## Lambda X-Ray

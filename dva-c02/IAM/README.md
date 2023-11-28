@@ -116,3 +116,6 @@ ex: IAM role that you create for the Lambda function is in the same AWS account 
 - IAM access advisor
   - user level
     - check which services is used by user
+- IAM Access Analyzer
+  - helps you identify the resources in your organization and accounts, such as Amazon S3 buckets or IAM roles, that are shared with an external entity
+- 

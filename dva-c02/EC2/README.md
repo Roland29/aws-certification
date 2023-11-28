@@ -24,6 +24,8 @@
     - price (0.0035$ per hour)
   - Reserved instances
     - Reduce your Amazon EC2 costs by making a commitment to a consistent instance configuration, including instance type and Region, for a term of 1 or 3 years
+    - Regional Reserved instance (can't reserve capacity)
+    - Zonal reserved instance (can reserve capacity)
   - Cluster group
     - same rack
     - logical grouping of instances within a single Availability Zone

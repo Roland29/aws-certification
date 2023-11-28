@@ -21,4 +21,12 @@
 - AWS SAR (serverless application repository)
   - allow to share serverless application with other AWS accounts
 - SAM CLI + AWS toolkits allow debug locally
+- SAM supports the following resource types:
+  - AWS::Serverless::Api
+  - AWS::Serverless::Application
+  - AWS::Serverless::Function
+  - AWS::Serverless::HttpApi
+  - AWS::Serverless::LayerVersion
+  - AWS::Serverless::SimpleTable 
+  - AWS::Serverless::StateMachine
 
