@@ -25,6 +25,7 @@
 ## CodeBuild
 - buildspec.yml at root of code repo
 - Bundle the dependencies in the source code during the build stage
+- CodeBuild scales automatically, the organization does not have to do anything for scaling or for parallel builds
 
 ---
 ## CodeDeploy

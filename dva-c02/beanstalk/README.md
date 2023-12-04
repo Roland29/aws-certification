@@ -12,7 +12,7 @@
 - Application
 - Application Version
 - Environment
-
+- Dedicated worker environment
 
 ---
 ## Deployment
