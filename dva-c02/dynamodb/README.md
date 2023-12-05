@@ -53,3 +53,7 @@
     - NEW_IMAGE
     - OLD_IMAGE
     - NEW_AND_OLD_IMAGES
+- CLI
+  - `--projection-expression`
+  - `--filter-expression`
+  - 

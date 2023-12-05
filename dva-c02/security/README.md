@@ -140,6 +140,11 @@
 - Identify and protect sensitive data, such as personally identifiable information (PII)
 - can alert
 - Input: S3
+  - `SensitiveData:S3Object/Credentials`
+  - `SensitiveData:S3Object/CustomIdentifier`
+  - `SensitiveData:S3Object/Financial`
+  - `SensitiveData:S3Object/Multiple`
+  - `SensitiveData:S3Object/Personal`
 
 ---
 ## Types of Access Control

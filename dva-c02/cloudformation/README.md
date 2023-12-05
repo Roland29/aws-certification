@@ -40,3 +40,6 @@
   - Detect manual modification of the stack
 - Stack policies
   - if activated, DENY * by default and need ALLOW in policies
+- CLI
+  - `cloudformation package`
+  - `cloudformation deploy`

@@ -39,6 +39,9 @@
   - name end with the __.fifo__ suffix
 - Auto-scaling group (ASG)
 ![SQS delay](../../images/sqs-delay-queues-diagram.png)
+- SQS extended client (__only with aws sdk java__)
+  - use S3 message up to 2GB
+
 ---
 ## SNS
 - Pub/sub model

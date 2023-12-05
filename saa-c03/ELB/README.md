@@ -36,6 +36,10 @@
 - SSL
 - Connection Draining
   - This enables the load balancer to complete in-flight requests made to instances that are de-registering or unhealthy
+- three possible target types: 
+  - Instance
+  - IP
+  - Lambda
 
 ---
 ## Auto Scaling group (ASG)

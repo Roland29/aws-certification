@@ -16,6 +16,7 @@
 - repo like GitHub but with minimal UI
 - Base on Git
 - access through ssh or https
+  - repositories is encrypted in transit and at rest automatically
 
 ---
 ## CodePipeline
@@ -41,6 +42,9 @@
   - OneAtATime
   - HalfAtATime
   - AllAtOnce
+- Deployment with ASG
+  - blue-green deployment
+  - In-place
 
 ---
 ## CodeStar
